@@ -1,4 +1,5 @@
 **Annapurna Restaurant Web App 🍽️**
+
 Annapurna is a restaurant menu and ordering web application built using React.js and Tailwind CSS. It features a dynamic menu, user authentication, a shopping cart, and a review system to enhance the customer experience.
 
 **✨ Features**
