@@ -1,12 +1,89 @@
-# React + Vite
+**Annapurna Restaurant Web App 🍽️**
+Annapurna is a restaurant menu and ordering web application built using React.js and Tailwind CSS. It features a dynamic menu, user authentication, a shopping cart, and a review system to enhance the customer experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**✨ Features**
+User Authentication: Sign up, log in, and log out functionality using local storage.
 
-Currently, two official plugins are available:
+Dynamic Navigation: Responsive navbar with different states for logged-in and guest users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Menu Management: Various cuisine categories, including Gujarati, Punjabi, South Indian, Fast Food, and more.
 
-## Expanding the ESLint configuration
+Shopping Cart: Users can add items to their cart and proceed with an order.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Review System: Logged-in users can leave reviews.
+
+Session Handling: User sessions are managed via sessionStorage.
+
+Responsive Design: Styled using Tailwind CSS for a seamless experience across devices.
+
+**🛠️ Tech Stack**
+Frontend: React.js, React Router, Tailwind CSS
+
+State Management: React Context API (CartContext, ReviewsContext)
+
+Storage: localStorage (for user data), sessionStorage (for active sessions)
+
+**📂 Project Structure**
+css
+Copy
+Edit
+/src
+  ├── component/
+  │   ├── Heading.jsx
+  │   ├── Footer.jsx
+  │   ├── Main.jsx
+  │   ├── Cart.jsx
+  │   ├── Gallery.jsx
+  │   ├── Reviews.jsx
+  ├── Menu pages/
+  │   ├── Gujarati.jsx
+  │   ├── Punjabi.jsx
+  │   ├── SouthIndian.jsx
+  │   ├── Fastfood.jsx
+  │   ├── RiceBiryani.jsx
+  │   ├── Desserts.jsx
+  │   ├── Beverages.jsx
+  │   ├── Popular.jsx
+  ├── CartContext.js
+  ├── ReviewsContext.js
+  ├── App.jsx
+  ├── index.js
+  
+**🚀 How to Run Locally**
+
+**Clone the repository:**
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/annapurna-restaurant.git
+cd annapurna-restaurant
+
+**Install dependencies:**
+
+nginx
+Copy
+Edit
+npm install
+
+**Start the development server:**
+
+arduino
+Copy
+Edit
+npm run dev
+
+**Open your browser and visit:**
+
+arduino
+Copy
+Edit
+http://localhost:5173
+
+**📌 Future Enhancements**
+
+Integrate a backend with a database for real-time order management.
+
+Implement payment gateway integration.
+
+Enhance the UI/UX with more animations.
